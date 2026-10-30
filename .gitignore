@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+
+# Downloaded demonstration data are distributed as a GitHub Release asset.
+dataset/*
+!dataset/README.md
+!dataset/.gitkeep
+
+# Generated checkpoints and metrics.
+results/*
+!results/.gitkeep
+
+*.log
+*.tmp
