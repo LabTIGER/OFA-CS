@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the OFA-CS paper."
+title: "OFA-CS"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Mo"
+  - family-names: "Zhao"
+    given-names: "Zhaosong"
+  - family-names: "Ding"
+    given-names: "Linlin"
+  - family-names: "Borovica-Gajic"
+    given-names: "Renata"
+  - family-names: "Yao"
+    given-names: "Zhongming"
+  - family-names: "Li"
+    given-names: "Jianxin"
+preferred-citation:
+  type: conference-paper
+  title: "One-for-All Community Search on Unseen Graphs"
+  authors:
+    - family-names: "Li"
+      given-names: "Mo"
+    - family-names: "Zhao"
+      given-names: "Zhaosong"
+    - family-names: "Ding"
+      given-names: "Linlin"
+    - family-names: "Borovica-Gajic"
+      given-names: "Renata"
+    - family-names: "Yao"
+      given-names: "Zhongming"
+    - family-names: "Li"
+      given-names: "Jianxin"
+  collection-title: "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+  year: 2026
+  doi: "10.1145/3805712.3809594"

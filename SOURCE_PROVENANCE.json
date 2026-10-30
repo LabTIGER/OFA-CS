@@ -1,0 +1,47 @@
+{
+  "release_name": "OFA-CS Photo-to-Citeseer example",
+  "prepared_date": "2026-10-30",
+  "original_snapshot": "OFA-CS-Test code-only snapshot received from the paper authors",
+  "policy": "Core algorithm files are byte-identical to the original snapshot. The example entry was renamed from aa-main.py and changed only to use a stable output directory and save the final model and JSON summary.",
+  "files": [
+    {
+      "released_path": "aa_utils.py",
+      "sha256": "A8C30820AC1FA2AEE159DDBAA3FD15ACAC9816A46AED68E279A6DAB215B73189",
+      "exact_original": true
+    },
+    {
+      "released_path": "data_loader.py",
+      "sha256": "A28DA5DC7EFCD2172D8E44B6DEBC1AB43ED691922FD24FBE4CAD597A37ED643B",
+      "exact_original": true
+    },
+    {
+      "released_path": "layer.py",
+      "sha256": "A489B794E41E61CC92ED57A29C96AE3F629117F63BF3C1C42C1162E3AACDD066",
+      "exact_original": true
+    },
+    {
+      "released_path": "lr.py",
+      "sha256": "815B357E5580F078B3874DCCE08926AA0C39C95AE7F0107449530D6CA706AF1F",
+      "exact_original": true
+    },
+    {
+      "released_path": "model.py",
+      "sha256": "86844358C20F3FB62CD958CB981606DE6A35DD8BEFDBD1D22DBAF62CC8A1DA64",
+      "exact_original": true
+    },
+    {
+      "original_path": "aa-main.py",
+      "original_sha256": "3484BB3D2FF08F0FED241D0FDC2D60797C06E9FA8A2B621BE3173EF693F5F0B9",
+      "released_path": "run_example.py",
+      "released_sha256": "258EF918E9703A625E6164DDAB6F62618129A20F0961E0F0495991F939E108BF",
+      "exact_original": false,
+      "changes": [
+        "renamed the entry file",
+        "created the output directory before execution",
+        "removed loading of a stale last_epoch.pt file",
+        "saved the final model checkpoint",
+        "saved a JSON summary of the final F1 score"
+      ]
+    }
+  ]
+}
